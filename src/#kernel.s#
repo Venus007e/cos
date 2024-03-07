@@ -334,6 +334,7 @@ concat: ;; si=cmd di=arg_buffer
     je .reset
     jmp .done
 .reset:
+
     push si
     mov si, di
     mov bx, 0x100
